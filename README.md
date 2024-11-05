@@ -5,8 +5,7 @@ Seamonkey installer package for Debian / Ubuntu
 
 Debian package to automate download & installation
 
-! [Screenshot](screenshot.png?raw=true)
-
+![Screenshot](screenshot.png?raw=true)
 
 Installation
 ------------
