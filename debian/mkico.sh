@@ -10,7 +10,7 @@ INKVER=`inkscape -V | awk '{print $2}'`
 for resolution in $resolutions
 do
     echo ${resolution}x${resolution}
-    mkdir -p $DIR/${resolution}x${resolution}/
+    mkdir -p $DIR/${resolution}x${resolution}/apps/
     if [ `echo ${INKVER}| awk -F. '{print $1}'` -eq 0 ]; then
     inkscape -z -w ${resolution} -h ${resolution} $SRC -e $DIR/${resolution}x${resolution}/apps/$PACKAGE.png
     else
