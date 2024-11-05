@@ -67,8 +67,6 @@ distributions.each {
                     artifacts.each { deb_file ->
                         if (deb_file.endsWith('.deb')) {
                             sh 'echo -e "${GREEN} installing ' + deb_file + ' on `lsb_release -sc` ${ENDCOLOR} "'
-                            sh 'sudo DEBIAN_FRONTEND=noninteractive apt-get -y install xvfb';
-                            sh 'Xvfb :100 -ac &'
                             sh 'sudo DISPLAY=:100.0 DEBIAN_FRONTEND=noninteractive DEBCONF_DEBUG=' + debconf_debug + ' apt-get -y install $WORKSPACE/dist/debian/' + deb_file
                         }
                     }
