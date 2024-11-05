@@ -5,6 +5,9 @@ Seamonkey installer package for Debian / Ubuntu
 
 Debian package to automate download & installation
 
+! [Screenshot](screenshot.png?raw=true)
+
+
 Installation
 ------------
 
@@ -31,11 +34,12 @@ debuild -i -us -uc -b
 Testing
 -------
 
+```sh
     vagrant up
     vagrant ssh
     sudo apt install xfce4
     startxfce4
-
+```
 
 ![Vagrant Test](vagrantubuntu.png?raw=true "seamonkey in Ubuntu")
 
