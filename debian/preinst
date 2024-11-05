@@ -32,7 +32,3 @@ cd /tmp
 mkdir -p $DESTDIR
 tar xjvf $TMPFILE -C $DESTDIR --strip-components=1
 rm $TMPFILE
-if [ -n "$DISPLAY" ]; then
-    echo current installed version:
-    $DESTDIR/seamonkey --full-version
-fi
