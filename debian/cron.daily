@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/sbin/mozilla-nightly-updater
+/usr/sbin/seamonkey-updater

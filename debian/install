@@ -1,4 +1,6 @@
-firefox-nightly.desktop				usr/share/applications
-org.mozilla.firefox_nightly.metainfo.xml	/usr/share/metainfo/
-mozilla-nightly-updater				/usr/sbin
-nightly.timer                       /etc/systemd/system
+seamonkey.desktop				usr/share/applications
+org.mozilla.seamonkey.metainfo.xml	/usr/share/metainfo/
+seamonkey-updater				/usr/sbin
+seamonkey.timer                       /etc/systemd/system
+seamonkey.desktop				usr/share/applications
+seamonkey-updater.desktop          usr/share/applications

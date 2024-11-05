@@ -1,47 +1,8 @@
-nightly (115.0a1) UNRELEASED; urgency=medium
-
-  [ CyberVitexus ]
-  * Jenkinsfile Added
+seamonkey (2.53.19+) UNRELEASED; urgency=medium
 
   [ vitex ]
-  * Icons renamed to firefox-nightly.svg
-  * Rebuild for new repo
-  * Build only amd64
-  * Update
+  * Forked from Nightly
   * repack
 
  -- vitex <info@vitexsoftware.cz>  Tue, 16 May 2023 17:25:51 +0200
 
-nightly (90.0a1+) EXPERIMENTAL; urgency=low
-
-  [ Vítězslav Dvořák ]
-  * Icons path fixed
-
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 04 Oct 2021 01:13:20 +0200
-
-
-nightly (89.0a1+) UNRELEASED; urgency=medium
-
-  [ Vítězslav Dvořák ]
-  * Branding 2019
-
-
-  [ CyberVitexus ]
-  * 
-
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 04 Oct 2019 01:13:20 +0200
-
-nightly (65.0a1) experimental; urgency=medium
-
-
-
-  [ Vítězslav Dvořák ]
-  * Fix Download url on english environments
-
-  [ Vitex ]
-  * Icon Fixed
-
-  [ vitex ]
-  * 
-
- -- Vitex <vitex@hebeditko>  Thu, 08 Nov 2018 00:08:28 +0100

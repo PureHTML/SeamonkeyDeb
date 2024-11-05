@@ -1,5 +1,5 @@
 #!/bin/bash
-PACKAGE="firefox-nightly"
+PACKAGE="seamonkey"
 SRC="$PACKAGE.svg"
 DIR="debian/$PACKAGE/usr/share/icons/hicolor"
 
@@ -12,15 +12,13 @@ do
     echo ${resolution}x${resolution}
     mkdir -p $DIR/${resolution}x${resolution}/
     if [ `echo ${INKVER}| awk -F. '{print $1}'` -eq 0 ]; then
-	inkscape -z -w ${resolution} -h ${resolution} $SRC -e $DIR/${resolution}x${resolution}/apps/$PACKAGE.png
+    inkscape -z -w ${resolution} -h ${resolution} $SRC -e $DIR/${resolution}x${resolution}/apps/$PACKAGE.png
     else
         inkscape -w ${resolution} -h ${resolution} $SRC $DIR/${resolution}x${resolution}/apps/$PACKAGE.png
     fi
     rsvg-convert -a -w ${resolution} -f svg ${SRC} -o $DIR/${resolution}x${resolution}/apps/$PACKAGE.svg
 done
 
-
 mkdir -p $DIR/scalable/apps
 cp $SRC $DIR/scalable/apps/$PACKAGE.svg
 echo All done
-

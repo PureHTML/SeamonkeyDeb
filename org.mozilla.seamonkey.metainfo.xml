@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.mozilla.seamonkey</id>
+  
+  <name>Seamonkey</name>
+  <summary>Integrated Internet application suite by Mozilla</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MPL-2.0</project_license>
+  
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </recommends>
+  
+  <description>
+    <p>
+      Seamonkey is an all-in-one internet application suite featuring a web browser, email client, newsgroup client, IRC chat client, and HTML editor. It is developed by the Mozilla community and is a continuation of the former Mozilla Application Suite. Seamonkey aims to provide a seamless and integrated internet experience.
+    </p>
+  </description>
+  <project_group>Mozilla</project_group>
+  
+  <launchable type="desktop-id">seamonkey.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://www.seamonkey-project.org/doc/img-screen/linux/browser.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://www.seamonkey-project.org/doc/img-screen/linux/addonman.png</image>
+    </screenshot>
+  </screenshots>
+</component>

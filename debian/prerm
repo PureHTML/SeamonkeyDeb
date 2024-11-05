@@ -3,13 +3,21 @@
 #DEBHELPER#
 
 if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ] ; then
-    update-alternatives --remove x-www-browser /opt/firefox-nightly/firefox
-    update-alternatives --remove gnome-www-browser /opt/firefox-nightly/firefox
+    update-alternatives --remove x-www-browser /opt/seamonkey/firefox
+    update-alternatives --remove gnome-www-browser /opt/seamonkey/firefox
 fi
 
 if [ "$1" = "remove" ]; then
-    rm -rf /opt/firefox-nightly
+    rm -rf /opt/seamonkey
 fi
 
 
 
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ] ; then
+    update-alternatives --remove x-www-browser /opt/seamonkey/seamonkey
+    update-alternatives --remove gnome-www-browser /opt/seamonkey/seamonkey
+fi
+
+if [ "$1" = "remove" ]; then
+    rm -rf /opt/seamonkey
+fi

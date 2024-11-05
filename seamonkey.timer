@@ -1,6 +1,6 @@
 [Unit]
-Description=Install fresh nightly browser
-Documentation=man:nightly(1)
+Description=Install fresh seamonkey browser
+Documentation=man:seamonkey(1)
 
 [Timer]
 OnBootSec=10min

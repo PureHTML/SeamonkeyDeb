@@ -3,7 +3,10 @@
 #DEBHELPER#
 
 if [ "$1" = "remove" ]; then
-    dpkg-divert --package nightly --rename --remove /usr/bin/nightly
+    dpkg-divert --package seamonkey --rename --remove /usr/bin/seamonkey
 fi
 
 
+if [ "$1" = "remove" ]; then
+    dpkg-divert --package seamonkey --rename --remove /usr/bin/seamonkey
+fi

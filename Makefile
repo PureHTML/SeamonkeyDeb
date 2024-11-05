@@ -10,7 +10,7 @@ build:
 	echo build
 
 clean:
-	rm -rf debian/nightly 
+	rm -rf debian/seamonkey 
 	rm -rf debian/*.substvars debian/*.log debian/*.debhelper debian/files debian/debhelper-build-stamp
 
 deb:
@@ -18,3 +18,6 @@ deb:
 
 .PHONY : install
 	
+	seamonkey:
+		echo "Building Seamonkey package"
+		# Add commands to build Seamonkey package here

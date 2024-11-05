@@ -1,28 +1,24 @@
-.TH FIREFOX Nightly "November 4, 2019" Firefox Nightly "Linux User's Manual"
+.TH SEAMONKEY "November 4, 2019" Seamonkey "Linux User's Manual"
 .SH NAME
-nightly - every day twice fresh development Firefox build
+seamonkey - open-source web browser and internet suite
 
 .SH SYNOPSIS
-.B nightly
+.B seamonkey
 [\fIOPTIONS\fR] [\fIURL\fR]
 
-.B /opt/nightly/firefox
+.B /opt/seamonkey/seamonkey
 [\fIOPTIONS\fR] [\fIURL\fR]
 
 .SH DESCRIPTION
-\fBFirefox Nightly\fR is an open-source web browser, designed for
-standards compliance, performance and portability. Under heavy 
-development. Least stable/secure. First tests of new changes/features; 
-some changes/features introduced in Nightly may be removed before Release and other versions. 
-Only for testing. Should only be used by very experienced users/testers
+\fBSeamonkey\fR is an open-source web browser and internet suite, designed for standards compliance, performance, and portability. It is under active development and includes a web browser, email client, and other internet tools. 
 
 .SH USAGE
-If there is an Firefox Nightly browser already running, \fBfirefox-Nightly\fR will
-arrange for it to create a new browser window; otherwise it will start
+If there is a Seamonkey browser already running, \fBseamonkey\fR will
+arrange for it to create a new browser window; otherwise, it will start
 a new instance.
 
 .SH OPTIONS
-A summary of the options supported by \fBnightly\fR is included below.
+A summary of the options supported by \fBseamonkey\fR is included below.
 
 .SS "X11 options"
 .TP
@@ -48,7 +44,7 @@ Make all warnings fatal
 Show summary of options.
 .TP
 .B \-v, \-version
-Print Firefox Nightly version.
+Print Seamonkey version.
 .TP
 \fB\-P\fR [\fIprofile\fR]
 Start with \fIprofile\fR. When no profile is given, displays the Profile Manager. May require \fB\-no\-remote\fR, see below.
@@ -60,27 +56,27 @@ Start with migration wizard. May require \fB\-no\-remote\fR, see below.
 Start with profile manager. May require \fB\-no\-remote\fR, see below.
 .TP
 .B \-no\-remote
-Don't connect to a running Firefox Nightly instance. This option can be necessary
+Don't connect to a running Seamonkey instance. This option can be necessary
 in conjunction to several of the options above, that won't have any effect
-when an Firefox Nightly instance is running unless \fB\-no\-remote\fR is used at
+when a Seamonkey instance is running unless \fB\-no\-remote\fR is used at
 the same time.
 .TP
 \fB\-UILocale\fR \fIlocale\fR
 Start with \fIlocale\fR resources as User Interface locale. By default, it is
-guessed from environment and available locales for Firefox Nightly.
+guessed from environment and available locales for Seamonkey.
 .TP
 .B \-safe\-mode
-Starts Firefox Nightly in safe mode, i.e. disabling all extensions and
+Starts Seamonkey in safe mode, i.e. disabling all extensions and
 showing a bit more debugging messages.
 .TP
 .B \-jsconsole
 Start with Javascript Console
 .TP
 \fB\-new-window\fR \fIURL\fR
-Open \fIURL\fR in a new window in an already running Firefox Nightly process.
+Open \fIURL\fR in a new window in an already running Seamonkey process.
 .TP
 \fB\-new-tab\fR \fIURL\fR
-Open \fIURL\fR in a new tab in an already running Firefox Nightly process.
+Open \fIURL\fR in a new tab in an already running Seamonkey process.
 .TP
 \fB\-chrome\fR \fIurl\fR
 Load the specified chrome.
@@ -90,12 +86,12 @@ Load the specified chrome.
 (the ones that appear at the about:plugins url)
 
 .SH FILES
-\fI/usr/bin/firefox-Nightly\fR - symbolic link to \fB/opt/nightly/firefox-Nightly\fR.
+\fI/usr/bin/seamonkey\fR - symbolic link to \fB/opt/seamonkey/seamonkey\fR.
 .br
 
-\fI/opt/nightly/firefox\fR - Firefox Nightly executable.
+\fI/opt/seamonkey/seamonkey\fR - Seamonkey executable.
 
-\fI/opt/nightly/firefox\-bin\fR - Legacy executable.
+\fI/opt/seamonkey/seamonkey\-bin\fR - Legacy executable.
 .br
 
 .SH BUGS

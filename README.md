@@ -1,13 +1,13 @@
 ❗❗❗ Please use official Mozilla's repository instead:
-https://blog.nightly.mozilla.org/2023/10/30/introducing-mozillas-firefox-nightly-deb-packages-for-debian-based-linux-distributions/
+https://blog.seamonkey.mozilla.org/2023/10/30/introducing-mozillas-seamonkey-deb-packages-for-debian-based-linux-distributions/
 ❗❗❗
 
-Firefox Nightly installer package for Debian / Ubuntu
+Firefox seamonkey installer package for Debian / Ubuntu
 =====================================================
 
-![FirefoxNightly](firefox-nightly.svg?raw=true "Nightly logo")
+![Firefoxseamonkey](seamonkey.svg?raw=true "seamonkey logo")
 
-Firefox Nightly gets a new version every day and as a consequence, the release notes for the Nightly channel are updated continuously to reflect features that have reached sufficient maturity to benefit from community feedback and bug reports. Features listed here may or may not make a final release of Firefox.
+Firefox seamonkey gets a new version every day and as a consequence, the release notes for the seamonkey channel are updated continuously to reflect features that have reached sufficient maturity to benefit from community feedback and bug reports. Features listed here may or may not make a final release of Firefox.
 
 
 Building package
@@ -15,7 +15,7 @@ Building package
 
 ```shell
 apt-get -y install devscripts dpkg-dev
-git clone https://github.com/Vitexus/FirefoxNightlyDeb.git
+git clone https://github.com/Vitexus/FirefoxseamonkeyDeb.git
 debuild -i -us -uc -b
 ```
 
@@ -28,7 +28,7 @@ Testing
     startxfce4
 
 
-![Vagrant Test](vagrantubuntu.png?raw=true "Nightly in Ubuntu")
+![Vagrant Test](vagrantubuntu.png?raw=true "seamonkey in Ubuntu")
 
 
 See also
