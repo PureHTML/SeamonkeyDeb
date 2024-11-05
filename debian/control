@@ -9,7 +9,7 @@ Standards-Version: 4.3.0
 
 Package: seamonkey
 Architecture: all
-Depends: libc6, libgcc1, libstdc++6, wget, libdbus-glib-1-2, libgtk-3-0
+Depends: libc6, libgcc1, libstdc++6, wget, libdbus-glib-1-2, libgtk-3-0,libx11-xcb1
 Replaces: seamonkey
 Provides: gnome-www-browser, www-browser, x-www-browser
 Description: Seamonkey web browser installer
